@@ -34,6 +34,8 @@ services:
       - "8008:8008/tcp"
       - "8551:8551"
       - "8545:8545"
+    environment:
+      - LOG_HASH_MISMATCH_REASON=true
     command:
       - --externalcl
       - --private.api.addr=0.0.0.0:9090
