@@ -56,6 +56,8 @@ services:
       - --metrics.port=8008
       - --db.size.limit=2GB
       - --experimental.always-generate-changesets
+      - --log.console.verbosity=debug
+      - --log.dir.verbosity=debug
     logging:
       driver: json-file
       options:
