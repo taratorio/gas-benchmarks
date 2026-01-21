@@ -2,5 +2,5 @@ images:
   nethermind: ethpandaops/nethermind:master
   geth: ethpandaops/geth:master
   reth: ethpandaops/reth:main
-  erigon: erigontech/erigon:v3.3.3
+  erigon: erigontech/erigon:always_gen_changesets_flag_release_3_3
   besu: ethpandaops/besu:performance
