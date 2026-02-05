@@ -56,7 +56,7 @@ services:
       - --metrics
       - --metrics.addr=0.0.0.0
       - --metrics.port=8008
-      - --db.size.limit=2GB
+      - --db.size.limit=20GB
       - --experimental.always-generate-changesets
       - --log.console.verbosity=debug
       - --log.dir.verbosity=debug
