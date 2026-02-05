@@ -57,6 +57,9 @@ services:
       - --metrics.addr=0.0.0.0
       - --metrics.port=8008
       - --db.size.limit=20GB
+      - --fcu.timeout=0
+      - --fcu.background.prune=false
+      - --fcu.background.commit=false
       - --experimental.always-generate-changesets
       - --log.console.verbosity=debug
       - --log.dir.verbosity=debug
